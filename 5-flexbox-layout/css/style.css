@@ -14,4 +14,18 @@ footer {
   background-color: darkgray;
   color: white;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.flex-nowrap {
+  display: flex;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
